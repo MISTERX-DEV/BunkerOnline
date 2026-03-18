@@ -1,1 +1,7 @@
 other project.py
+
+
+__pycache__/
+site/
+chat/
+other/
