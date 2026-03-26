@@ -1,9 +1,23 @@
+def goida():
+    print('\n=== Goida Menu ===')
+    print('[1] Показать характеристики игрока')
+    print('[2] Показать характеристики игрока')
+
+    actions = {
+        "1": lambda: print("Шо"),
+        "2": lambda: print("Шо2")
+    }
+    return actions
+
+
 def debug_menu():
     print('\n=== Debug Menu ===')
     print('[1] Показать характеристики игрока')
+    print('[2] Показать характеристики игрока')
 
     actions = {
-        "1": lambda: print("Шо")
+        "1": lambda: print("Шо"),
+        "2": goida
     }
     return actions
 

@@ -1,5 +1,7 @@
-other project.py
 
+# Ignore the following files and directories
+app.py
+menu.py
 
 __pycache__/
 site/
